@@ -17,6 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/userdata")
+
 public class UserController {
     private UserService userService;
     private SecurityTokenGenerator securityTokenGenerator;
